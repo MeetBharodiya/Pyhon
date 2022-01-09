@@ -1,3 +1,9 @@
+# Student Name: Meet Bharodiya
+# Student ID:  20CE006
+# AIM : Study and Learn List, Tuple, Set and Dictionary
+
+
+
 
 # Github repository link is mention below
 
@@ -57,9 +63,11 @@
 # dic3={1:10, 2:20}
 # dic4={3:30, 4:40}
 # dic5={5:50,6:60}
+# new_dic={}
 # dic4.update(dic5)
 # dic3.update(dic4)
-# print(dic3)
+# new_dic.update(dic3)
+# print(new_dic)
 
 
 # Tuple
