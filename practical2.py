@@ -1,3 +1,12 @@
+
+# Github repository link is mention below
+
+# https://github.com/MeetBharodiya/Pyhon.git
+
+
+
+
+
 # Dictionary
 
 # a. Write a Python script to check whether a given key already exists in a dictionary.
@@ -92,6 +101,7 @@
 
 # set1={'meet','harmi','sharad','Jay'}
 # print(set1)
+# add function will add the item which is given as argument in it 
 # set1.add('Hinal')
 # print(set1)
 
@@ -101,6 +111,7 @@
 # print(set2)
 # name=input("Enter the name you want to remove: ")
 # if name in set2:
+# remove function will remove the item which is given as argument in it from set
 #     set2.remove(name)      
 # print(set2) 
 
@@ -125,17 +136,22 @@
 # print("Original set elements:")
 # print(setn)
 # print("Maximum value of the said set:")
+# max method returns the maximum value of set
 # print(max(setn))
 # print("Minimum value of the said set:")
+# min method returns the minimum value of set
 # print(min(setn))
 
 # e. Write a Python program to find the most common elements and their counts from list, tuple, dictionary.
 
+
+# **************************** Frequncy count in List *******************************************
 # List = [2, 1, 2, 2, 1, 3]
 # counter = 0
 # num = List[0]
 # for i in List:
-#     curr_frequency = List.count(i)
+# The count() method returns the number of occurrences of a number in the given List.
+#     curr_frequency = List.count(i)       
 #     if(curr_frequency> counter):
 #         counter = curr_frequency
 #         num = i
@@ -144,11 +160,14 @@
 # print("Frequency of most repeted number is: ")
 # print(counter)
 
+
+# **************************** Frequncy count in Tuple *******************************************
 # tuple=(1,2,4,5,6,6,3,6,8,3,6)
 # L=list(tuple)
 # counter1 = 0
 # num1 = L[0]
 # for i in L:
+# The count() method returns the number of occurrences of a number in the given Tuple.
 #     curr_frequency = L.count(i)
 #     if(curr_frequency> counter1):
 #         counter1 = curr_frequency
@@ -158,8 +177,21 @@
 # print("Frequency of most repeted number is: ")
 # print(counter1)
 
-# items = ['Pen', 'Scissor', 'Pen', 'Pen', 'Scissor']
 
-# count = {}
-# for item in items:
-#     count[item] = count.get(item, 0) + 1
+# **************************** Frequncy count in Dictionary *******************************************
+# dic={1:'meet',2:'harmi',3:'sharad',4:'aniket',5:'jay',6:'sharad',7:'harmi',8:'sharad',9:'bhavdeep'}
+# values() method returns list of all values which are in dictionary 
+# value=dic.values()
+# convert values in list to count frequncy
+# l1=list(value)
+# counter1 = 0
+# name= list(l1[0])
+# for i in l1:
+#     curr_frequency = l1.count(i)
+#     if(curr_frequency> counter1):
+#         counter1 = curr_frequency
+#         name = i
+# print("Name which is repeted most: ")
+# print(name)
+# print("Frequency of most repeted name is: ")
+# print(counter1)
