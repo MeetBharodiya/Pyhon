@@ -1,3 +1,6 @@
+# Student Name: Meet Bharodiya
+# Student ID:  20CE006
+
 k=input()
 
 # Take input as string and convert it into list
